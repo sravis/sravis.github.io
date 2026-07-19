@@ -76,14 +76,15 @@ nav ul li a:hover{
 
 .hero{
 
+    min-height:85vh;
+
     display:flex;
     justify-content:space-between;
     align-items:center;
 
-    padding:100px 10%;
+    padding:40px 10%;
 
-    flex-wrap:wrap;
-    gap:60px;
+    gap:40px;
 
 }
 
@@ -123,8 +124,8 @@ nav ul li a:hover{
 
 .hero-image img{
 
-    width:340px;
-    height:340px;
+    width:280px;
+    height:280px;
 
     object-fit:cover;
 
@@ -352,5 +353,44 @@ nav ul{
     justify-content:center;
 
 }
+
+}
+
+.stats{
+
+display:flex;
+gap:40px;
+margin-top:50px;
+flex-wrap:wrap;
+
+}
+
+.stat{
+
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+text-align:center;
+min-width:160px;
+transition:.3s;
+
+}
+
+.stat:hover{
+
+transform:translateY(-8px);
+background:#38bdf8;
+
+}
+
+.stat h3{
+
+font-size:32px;
+
+}
+
+.stat p{
+
+font-size:14px;
 
 }
